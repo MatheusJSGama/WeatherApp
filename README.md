@@ -1,5 +1,8 @@
 # GitHub Search
 
+# Vídeo da aplicação
+https://github.com/user-attachments/assets/25edcde3-6416-4018-a124-a37bbbb16dad
+
 # Propósito da aplicação:
 - O propósito da aplicação é trabalhar com dados assincronos usando o ASYNC e AWAIT e a manipulaçao da DOM dentro do javascript.
 
