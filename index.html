@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Src/css/style.css">
+    <link rel="stylesheet" href="./Src/css/reset.css">
+    <link rel="stylesheet" href="./Src/css/variables.css">
+</head>
+
+<body>
+    <main class="page">
+        <div class="weather-container">
+            <div class="search">
+                <i class="fa-solid fa-cloud"></i>
+                <input type="text" class="search-box" placeholder="DIGITE O NOME DA CIDADE">
+                <button id="btn" class="fa-solid fa-magnifying-glass"></button>
+            </div>
+            <p class="error-message"></p>
+            <div class="infos">
+                <div class="climate-info">
+                    <img src="" alt="imagem do clima">
+                    <p class="temp"></p>
+                    <p class="climate-description"></p>
+                </div>
+                <div class="temperature-info">
+                    <div class="data-info">
+                        <i class="fa-solid fa-temperature-arrow-up"></i>
+                        <p class="info-name">Temp max</p>
+                        <p class="data temp-max"></p>
+                    </div>
+                    <div class="data-info">
+                        <i class="fa-solid fa-temperature-arrow-down"></i>
+                        <p class="info-name">Temp Min</p>
+                        <p class="data temp-min"></p>
+                    </div>
+                    <div class="data-info">
+                        <i class="fa-solid fa-wind"></i>
+                        <p class="info-name">Vento</p>
+                        <p class="data wind"></p>
+                    </div>
+                    <div class="data-info">
+                        <i class="fa-solid fa-water"></i>
+                        <P class="info-name">Humidade</P>
+                        <p class="data humidity"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script type="module" src="./Src/scripts/index.js"></script>
+</body>
+
+</html>
